@@ -17,7 +17,7 @@ export default function GameSkeleton() {
         <div className="h-4 w-40 animate-pulse rounded-md bg-zinc-200" />
       </div>
       <div className="h-4 w-56 animate-pulse rounded-full bg-zinc-200" />
-      <div className="grid w-full grid-cols-2 gap-2 sm:grid-cols-4">
+      <div className="grid w-full grid-cols-4 gap-1.5 sm:gap-2">
         {Array.from({ length: 16 }).map((_, i) => (
           <div
             key={i}
