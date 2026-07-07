@@ -55,35 +55,39 @@ export default function WinLossModal({
       aria-modal="true"
       aria-label={won ? "You solved today's puzzle" : "Better luck tomorrow"}
     >
-      <div className="flex max-h-full w-full max-w-md flex-col gap-4 overflow-y-auto rounded-2xl bg-white p-6 shadow-xl">
-        <div className="flex items-start justify-between">
-          <h2 className="text-2xl font-extrabold text-zinc-900">
-            {won ? "Nice work!" : "So close!"}
-          </h2>
-          <button
-            ref={closeButtonRef}
-            type="button"
-            onClick={onClose}
-            aria-label="Close"
-            className="rounded-full p-1 text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-400"
-          >
-            ✕
-          </button>
+      <div className="flex max-h-full w-full max-w-md flex-col overflow-hidden rounded-2xl bg-white shadow-xl">
+        {/* Fixed header */}
+        <div className="shrink-0 px-6 pt-6">
+          <div className="flex items-start justify-between gap-4">
+            <h2 className="text-2xl font-extrabold text-zinc-900">
+              {won ? "Nice work!" : "So close!"}
+            </h2>
+            <button
+              ref={closeButtonRef}
+              type="button"
+              onClick={onClose}
+              aria-label="Close"
+              className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-700 focus:outline-none focus:ring-2 focus:ring-zinc-400"
+            >
+              ✕
+            </button>
+          </div>
+          <p className="mt-2 text-sm text-zinc-600">
+            {won
+              ? `You solved every category with ${mistakes} mistake${mistakes === 1 ? "" : "s"}.`
+              : "Here are today's answers:"}
+          </p>
         </div>
 
-        <p className="text-sm text-zinc-600">
-          {won
-            ? `You solved every category with ${mistakes} mistake${mistakes === 1 ? "" : "s"}.`
-            : "Here are today's answers:"}
-        </p>
-
-        <div className="flex flex-col gap-2">
+        {/* Scrollable category list — only this scrolls, so the share action below stays visible */}
+        <div className="flex min-h-0 flex-1 flex-col gap-2 overflow-y-auto px-6 py-4">
           {categoriesToShow.map((category) => (
             <CategoryRow key={category.name} category={category} />
           ))}
         </div>
 
-        <div className="border-t border-zinc-200 pt-4">
+        {/* Pinned footer: share summary + copy action always in view */}
+        <div className="shrink-0 border-t border-zinc-200 p-6">
           <ResultShare puzzle={puzzle} guessHistory={guessHistory} status={status} mistakes={mistakes} />
         </div>
       </div>

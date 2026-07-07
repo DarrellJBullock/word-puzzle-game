@@ -58,7 +58,7 @@ export default function ResultShare({ puzzle, guessHistory, status, mistakes }: 
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <pre className="whitespace-pre-wrap rounded-lg bg-zinc-100 px-4 py-3 text-center text-sm font-medium text-zinc-800">
+      <pre className="max-h-40 w-full overflow-y-auto whitespace-pre-wrap rounded-lg bg-zinc-100 px-4 py-3 text-center text-sm font-medium text-zinc-800">
         {shareText}
       </pre>
       <button
