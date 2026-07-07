@@ -12,7 +12,7 @@ import GameLoader from "@/components/GameLoader";
  */
 export default function Home() {
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center bg-zinc-50 py-10">
+    <div className="flex min-h-screen w-full flex-col items-center bg-zinc-50 py-10 sm:py-16">
       <GameLoader />
     </div>
   );
