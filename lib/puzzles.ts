@@ -1,7 +1,7 @@
 import { Puzzle } from "./types";
 
 /**
- * Starter puzzle bank (10 puzzles).
+ * Puzzle bank (20 puzzles).
  *
  * Each puzzle: 4 categories × 4 words, one category per difficulty (1=yellow
  * easiest → 4=purple hardest), 16 unique words, and — per product-spec
@@ -105,6 +105,96 @@ export const PUZZLES: Puzzle[] = [
       { name: "TYPES OF BEAR", difficulty: 2, words: ["POLAR", "PANDA", "GRIZZLY", "BROWN"] },
       { name: "___ STICK", difficulty: 3, words: ["LIP", "YARD", "CHOP", "DRUM"] },
       { name: "___ BERRY", difficulty: 4, words: ["BLUE", "STRAW", "RASP", "GOOSE"] },
+    ],
+  },
+  {
+    date: "2026-07-16",
+    categories: [
+      { name: "FRUITS", difficulty: 1, words: ["APPLE", "BANANA", "GRAPE", "PEACH"] },
+      { name: "US COINS", difficulty: 2, words: ["PENNY", "NICKEL", "DIME", "QUARTER"] },
+      { name: "___ BOARD", difficulty: 3, words: ["KEY", "DASH", "CHESS", "SURF"] },
+      { name: "SOUND LIKE LETTERS", difficulty: 4, words: ["BEE", "JAY", "CUE", "WHY"] },
+    ],
+  },
+  {
+    date: "2026-07-17",
+    categories: [
+      { name: "SHADES OF GREEN", difficulty: 1, words: ["OLIVE", "LIME", "EMERALD", "MINT"] },
+      { name: "MARTIAL ARTS", difficulty: 2, words: ["KARATE", "JUDO", "BOXING", "SUMO"] },
+      { name: "___ FALL", difficulty: 3, words: ["WATER", "RAIN", "PRAT", "NIGHT"] },
+      { name: "POKER TERMS", difficulty: 4, words: ["BLUFF", "RAISE", "FOLD", "CALL"] },
+    ],
+  },
+  {
+    date: "2026-07-18",
+    categories: [
+      { name: "ROOMS IN A HOUSE", difficulty: 1, words: ["KITCHEN", "ATTIC", "GARAGE", "PANTRY"] },
+      { name: "SEWING TOOLS", difficulty: 2, words: ["NEEDLE", "THREAD", "THIMBLE", "PIN"] },
+      { name: "___ WORK", difficulty: 3, words: ["NET", "HOME", "FRAME", "TEAM"] },
+      { name: "___ FLOWER", difficulty: 4, words: ["SUN", "MAY", "WALL", "CAULI"] },
+    ],
+  },
+  {
+    date: "2026-07-19",
+    categories: [
+      { name: "TYPES OF BREAD", difficulty: 1, words: ["RYE", "PITA", "NAAN", "SOURDOUGH"] },
+      { name: "___ PROOF", difficulty: 2, words: ["BOMB", "BULLET", "FOOL", "CHILD"] },
+      { name: "CONSTELLATIONS", difficulty: 3, words: ["ORION", "LEO", "LYRA", "DRACO"] },
+      { name: "___ HORSE", difficulty: 4, words: ["SEA", "SAW", "RACE", "WAR"] },
+    ],
+  },
+  {
+    date: "2026-07-20",
+    categories: [
+      { name: "BODIES OF WATER", difficulty: 1, words: ["LAKE", "RIVER", "POND", "OCEAN"] },
+      { name: "SPICES", difficulty: 2, words: ["CUMIN", "PAPRIKA", "NUTMEG", "GINGER"] },
+      { name: "___ WATCH", difficulty: 3, words: ["OVER", "STOP", "WRIST", "NIGHT"] },
+      { name: "___ CAST", difficulty: 4, words: ["BROAD", "FORE", "OUT", "POD"] },
+    ],
+  },
+  {
+    date: "2026-07-21",
+    categories: [
+      { name: "FARM ANIMALS", difficulty: 1, words: ["COW", "PIG", "GOAT", "SHEEP"] },
+      { name: "BOARD GAMES", difficulty: 2, words: ["CLUE", "RISK", "SORRY", "TROUBLE"] },
+      { name: "___ HOUSE", difficulty: 3, words: ["POWER", "LIGHT", "GREEN", "WARE"] },
+      { name: "HOT ___", difficulty: 4, words: ["ROD", "SHOT", "SPOT", "HEAD"] },
+    ],
+  },
+  {
+    date: "2026-07-22",
+    categories: [
+      { name: "MONTHS", difficulty: 1, words: ["MARCH", "MAY", "JUNE", "AUGUST"] },
+      { name: "PROGRAMMING LANGUAGES", difficulty: 2, words: ["PYTHON", "RUBY", "JAVA", "SWIFT"] },
+      { name: "___ CASE", difficulty: 3, words: ["BRIEF", "SUIT", "STAIR", "BOOK"] },
+      { name: "___ TAIL", difficulty: 4, words: ["PONY", "CAT", "FISH", "DOVE"] },
+    ],
+  },
+  {
+    date: "2026-07-23",
+    categories: [
+      { name: "GEMSTONES", difficulty: 1, words: ["RUBY", "PEARL", "JADE", "OPAL"] },
+      { name: "IN A DECK OF CARDS", difficulty: 2, words: ["ACE", "KING", "QUEEN", "JACK"] },
+      { name: "___ TIME", difficulty: 3, words: ["BED", "DAY", "HALF", "SPARE"] },
+      { name: "___ CRACKER", difficulty: 4, words: ["FIRE", "NUT", "WISE", "SAFE"] },
+    ],
+  },
+  {
+    date: "2026-07-24",
+    categories: [
+      { name: "INSECTS", difficulty: 1, words: ["ANT", "BEE", "MOTH", "WASP"] },
+      { name: "RAINBOW COLORS", difficulty: 2, words: ["RED", "ORANGE", "INDIGO", "VIOLET"] },
+      { name: "___ PIT", difficulty: 3, words: ["ARM", "FIRE", "TAR", "SAND"] },
+      { name: "___ WORM", difficulty: 4, words: ["EARTH", "BOOK", "SILK", "GLOW"] },
+    ],
+  },
+  {
+    date: "2026-07-25",
+    categories: [
+      { name: "SEVEN DWARFS", difficulty: 1, words: ["DOC", "HAPPY", "SLEEPY", "GRUMPY"] },
+      { name: "CAR PARTS", difficulty: 2, words: ["HOOD", "TRUNK", "BUMPER", "FENDER"] },
+      { name: "___ PORT", difficulty: 3, words: ["AIR", "PASS", "SEA", "CAR"] },
+      { name: "___ STONE", difficulty: 4, words: ["BRIM", "LIME", "MILE", "GEM"] },
     ],
   },
 ];
