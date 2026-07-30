@@ -1,7 +1,7 @@
 import { Puzzle } from "./types";
 
 /**
- * Puzzle bank (20 puzzles).
+ * Puzzle bank (30 puzzles).
  *
  * Each puzzle: 4 categories × 4 words, one category per difficulty (1=yellow
  * easiest → 4=purple hardest), 16 unique words, and — per product-spec
@@ -195,6 +195,96 @@ export const PUZZLES: Puzzle[] = [
       { name: "CAR PARTS", difficulty: 2, words: ["HOOD", "TRUNK", "BUMPER", "FENDER"] },
       { name: "___ PORT", difficulty: 3, words: ["AIR", "PASS", "SEA", "CAR"] },
       { name: "___ STONE", difficulty: 4, words: ["BRIM", "LIME", "MILE", "GEM"] },
+    ],
+  },
+  {
+    date: "2026-07-26",
+    categories: [
+      { name: "CAT BREEDS", difficulty: 1, words: ["SIAMESE", "PERSIAN", "TABBY", "SPHYNX"] },
+      { name: "PLANETS", difficulty: 2, words: ["MARS", "VENUS", "SATURN", "JUPITER"] },
+      { name: "___ BOX", difficulty: 3, words: ["MAIL", "SAND", "TOOL", "LUNCH"] },
+      { name: "___ PRINT", difficulty: 4, words: ["FOOT", "FINGER", "BLUE", "NEWS"] },
+    ],
+  },
+  {
+    date: "2026-07-27",
+    categories: [
+      { name: "DESSERTS", difficulty: 1, words: ["CAKE", "PIE", "PUDDING", "TRIFLE"] },
+      { name: "US PRESIDENTS", difficulty: 2, words: ["LINCOLN", "MADISON", "MONROE", "ADAMS"] },
+      { name: "___ LINE", difficulty: 3, words: ["DEAD", "BASE", "HAIR", "PUNCH"] },
+      { name: "___ MARKET", difficulty: 4, words: ["SUPER", "FLEA", "STOCK", "BLACK"] },
+    ],
+  },
+  {
+    date: "2026-07-28",
+    categories: [
+      { name: "TYPES OF TEA", difficulty: 1, words: ["GREEN", "BLACK", "OOLONG", "CHAMOMILE"] },
+      { name: "CARD SUITS", difficulty: 2, words: ["SPADE", "HEART", "CLUB", "DIAMOND"] },
+      { name: "___ CLUB", difficulty: 3, words: ["BOOK", "NIGHT", "GOLF", "FAN"] },
+      { name: "___ HORN", difficulty: 4, words: ["FRENCH", "LONG", "FOG", "SHOE"] },
+    ],
+  },
+  {
+    date: "2026-07-29",
+    categories: [
+      { name: "SCHOOL SUBJECTS", difficulty: 1, words: ["MATH", "SCIENCE", "HISTORY", "ART"] },
+      { name: "SHAKESPEARE PLAYS", difficulty: 2, words: ["HAMLET", "MACBETH", "OTHELLO", "TEMPEST"] },
+      { name: "___ CAKE", difficulty: 3, words: ["PAN", "CUP", "FRUIT", "SHORT"] },
+      { name: "___ ROOM", difficulty: 4, words: ["BATH", "BED", "CLASS", "MUSH"] },
+    ],
+  },
+  {
+    date: "2026-07-30",
+    categories: [
+      { name: "VEGETABLES", difficulty: 1, words: ["CARROT", "BROCCOLI", "SPINACH", "PEPPER"] },
+      { name: "GREAT LAKES", difficulty: 2, words: ["ERIE", "HURON", "ONTARIO", "SUPERIOR"] },
+      { name: "___ BELT", difficulty: 3, words: ["SEAT", "BLACK", "BIBLE", "CONVEYOR"] },
+      { name: "___ JACK", difficulty: 4, words: ["LUMBER", "FLAP", "CRACKER", "HI"] },
+    ],
+  },
+  {
+    date: "2026-07-31",
+    categories: [
+      { name: "TYPES OF NUTS", difficulty: 1, words: ["ALMOND", "CASHEW", "PISTACHIO", "PECAN"] },
+      { name: "SOLFEGE NOTES", difficulty: 2, words: ["DO", "RE", "MI", "FA"] },
+      { name: "___ NOTE", difficulty: 3, words: ["FOOT", "KEY", "BANK", "SIDE"] },
+      { name: "___ CHIP", difficulty: 4, words: ["POKER", "MICRO", "WOOD", "CHOCOLATE"] },
+    ],
+  },
+  {
+    date: "2026-08-01",
+    categories: [
+      { name: "KITCHEN UTENSILS", difficulty: 1, words: ["SPATULA", "WHISK", "LADLE", "TONGS"] },
+      { name: "SEASONS", difficulty: 2, words: ["SPRING", "SUMMER", "FALL", "WINTER"] },
+      { name: "___ FIELD", difficulty: 3, words: ["OUT", "IN", "BATTLE", "MINE"] },
+      { name: "___ SPRING", difficulty: 4, words: ["HOT", "OFF", "MAIN", "BED"] },
+    ],
+  },
+  {
+    date: "2026-08-02",
+    categories: [
+      { name: "SHOE TYPES", difficulty: 1, words: ["SNEAKER", "SANDAL", "LOAFER", "BOOT"] },
+      { name: "TYPES OF WHALES", difficulty: 2, words: ["BLUE", "HUMPBACK", "ORCA", "SPERM"] },
+      { name: "___ SICK", difficulty: 3, words: ["HOME", "SEA", "LOVE", "CAR"] },
+      { name: "___ POINT", difficulty: 4, words: ["MATCH", "VIEW", "BOILING", "PIN"] },
+    ],
+  },
+  {
+    date: "2026-08-03",
+    categories: [
+      { name: "TYPES OF SOUP", difficulty: 1, words: ["TOMATO", "MINESTRONE", "CHOWDER", "BISQUE"] },
+      { name: "TYPES OF CLOUDS", difficulty: 2, words: ["CUMULUS", "CIRRUS", "STRATUS", "NIMBUS"] },
+      { name: "___ BOW", difficulty: 3, words: ["RAIN", "EL", "CROSS", "LONG"] },
+      { name: "___ HOUND", difficulty: 4, words: ["BLOOD", "GREY", "BASSET", "FOX"] },
+    ],
+  },
+  {
+    date: "2026-08-04",
+    categories: [
+      { name: "HERBS", difficulty: 1, words: ["BASIL", "THYME", "OREGANO", "PARSLEY"] },
+      { name: "TYPES OF BOATS", difficulty: 2, words: ["CANOE", "KAYAK", "YACHT", "FERRY"] },
+      { name: "___ DECK", difficulty: 3, words: ["SUN", "FLIGHT", "TAPE", "POOP"] },
+      { name: "___ MATE", difficulty: 4, words: ["ROOM", "CLASS", "SOUL", "CHECK"] },
     ],
   },
 ];
